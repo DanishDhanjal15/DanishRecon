@@ -67,6 +67,10 @@ MATHEMATICAL_FOUNDATIONS.md
 slide7_redesign.md
 GITHUB_PUBLISH_GUIDE.md
 GIT_PUSH_INSTRUCTIONS.md
+DEMO_SCRIPT_FOR_JUDGES.md
+CyberRecon_Hackathon_Documentation.py
+CyberRecon_Pro_Hackathon_Documentation.pdf
+.env.example
 
 # OS specific
 .DS_Store
