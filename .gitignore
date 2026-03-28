@@ -48,6 +48,12 @@ Screenshots/
 *.html
 attack_graph_*.png
 
+# Presentation & Media Files (keep code-focused)
+page_*.png
+ppt*.pdf
+*.pptx
+*.ppt
+
 # OS specific
 .DS_Store
 .DS_Store?
