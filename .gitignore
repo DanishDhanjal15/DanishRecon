@@ -104,8 +104,13 @@ htmlcov/
 local_config.py
 debug.log
 
-# Gemini cache
-.gemini_cache/
+# Temporary test files (development only)
+test_nikto*.ps1
+test_checkbox_toggle.py
+test_nikto_443.py
+test_scanner_quick.py
+test_scanner_real.py
+test_gemini_quick.py
 
 # Embedded git repos (keep files only)
 CyberRecon-Pro/.git/
