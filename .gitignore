@@ -1,0 +1,89 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.local
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Databases (user-specific - don't commit)
+*.db
+*.sqlite
+*.sqlite3
+
+# Scan results (too large & user-specific)
+results/
+CyberRecon-Pro/results/
+nmap_*.txt
+nmap_*.xml
+report_*.html
+report_*.md
+report_*.pdf
+scan_*.json
+vulns_*.csv
+Screenshots/
+*.html
+attack_graph_*.png
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE metadata
+.project
+.pydevproject
+.settings/
+*.sublime-*
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Package files
+*.whl
+*.egg
+
+# Vim
+.vim/
+.vimrc
+
+# Local development
+local_config.py
+debug.log
+
+# Gemini cache
+.gemini_cache/
+
+# Embedded git repos (keep files only)
+CyberRecon-Pro/.git/
+exploit-database/.git/
+nikto/.git/
