@@ -271,8 +271,34 @@ python-dotenv>=1.0.0 - Environment variables
 |------|---------|--------------|
 | **nmap** | Port scanning | https://nmap.org |
 | **nikto** | Web server scanning | Included in repo |
+| **nuclei** | Template-based vulnerability scanning | https://github.com/projectdiscovery/nuclei |
 | **perl** | Nikto runtime | Package manager |
 | **OpenSSL** | Certificate analysis | Usually pre-installed |
+
+#### Installing Nuclei (Optional)
+
+Download from: https://github.com/projectdiscovery/nuclei/releases
+
+**Windows:**
+```powershell
+# Download nuclei-windows-amd64.zip and extract to PATH
+# Or use chocolatey:
+choco install nuclei
+```
+
+**Linux/macOS:**
+```bash
+# Install via Go
+go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
+# Or download from releases
+wget https://github.com/projectdiscovery/nuclei/releases/download/v2.x.x/nuclei_2.x.x_linux_amd64.zip
+unzip nuclei_*.zip && chmod +x nuclei && sudo mv nuclei /usr/local/bin/
+```
+
+Verify installation:
+```bash
+nuclei -version
+```
 
 ---
 

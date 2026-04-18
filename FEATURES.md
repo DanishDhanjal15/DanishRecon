@@ -310,6 +310,42 @@ HIGH: Exposed S3 bucket
 - IDOR exposes sensitive data
 - Misconfigs are low-hanging fruit for attackers
 
+### Nuclei Template-Based Scanning (Optional)
+
+Advanced vulnerability detection using community templates.
+
+**Features:**
+- Optional checkbox-enabled scanning
+- 100+ pre-built vulnerability templates
+- Real-time template updates
+- Severity filtering (Critical, High, Medium)
+- HTTP/HTTPS web service scanning
+- Fast parallel scanning
+- JSON output parsing
+
+**What it detects:**
+- Exposed panels and dashboards
+- Known application vulnerabilities
+- Misconfigurations
+- Technology-specific vulnerabilities
+- CVE template matches
+
+**Example findings:**
+```
+[CRITICAL] Exposed Admin Panel at http://example.com/admin
+[HIGH] Nuclei: Joomla Component Vulnerability (Template: joomla-component-check)
+[MEDIUM] Nuclei: Exposed Git Configuration (Template: git-exposure)
+```
+
+**Enable in GUI:**
+Check "🧬 Nuclei Scanning" checkbox in the scanning options panel before starting a scan.
+
+**Why it matters:**
+- Detects vulnerabilities Nikto might miss
+- Community-driven template updates
+- Faster discovery than manual testing
+- Covers emerging vulnerability patterns
+
 ---
 
 ### CVE Database Integration
